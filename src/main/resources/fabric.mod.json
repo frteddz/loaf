@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "loaf",
+  "version": "${version}",
+  "name": "Loaf",
+  "description": "Cats spend a lot more time lounging around. Pairs nicely with Let Them Rest.",
+  "authors": [
+    "T3ddz / frteddz"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/loaf/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "loaf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
